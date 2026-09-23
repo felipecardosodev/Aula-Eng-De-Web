@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title>Recrutamento Online</title>
+        <meta charset="UTF-8">
+    </head>
+
+```
+<body>
+    <header>
+        <h1>Recrutamento Online</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Cadastre o seu Currículo</h2>
+
+            <form action="https://postman-echo.com/post" method="post">
+
+                <p>Preencha o formulário para se candidatar à vaga</p>
+
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <div>
+                        <label for="nome_id">Nome completo:</label>
+                        <input id="nome_id"
+                               name="nome"
+                               type="text"
+                               placeholder="Digite seu nome completo"
+                               required>
+                    </div>
+
+                    <div>
+                        <label for="email_id">Email:</label>
+                        <input id="email_id"
+                               name="email"
+                               type="email"
+                               placeholder="exemplo@email.com"
+                               required>
+                    </div>
+
+                    <div>
+                        <label for="telefone_id">Telefone:</label>
+                        <input id="telefone_id"
+                               name="telefone"
+                               type="tel"
+                               placeholder="(00) 00000-0000">
+                    </div>
+
+                    <div>
+                        <label for="cpf_id">CPF:</label>
+                        <input id="cpf_id"
+                               name="cpf"
+                               type="text"
+                               placeholder="000.000.000-00"
+                               pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}">
+                    </div>
+
+                    <div>
+                        <label for="data_nasc_id">Data de Nascimento:</label>
+                        <input id="data_nasc_id"
+                               name="data_nascimento"
+                               type="date">
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Endereço</legend>
+
+                    <div>
+                        <label for="logradouro_id">Logradouro:</label>
+                        <input id="logradouro_id"
+                               name="logradouro"
+                               type="text">
+                    </div>
+
+                    <div>
+                        <label for="numero_id">Número:</label>
+                        <input id="numero_id"
+                               name="numero"
+                               type="number">
+                    </div>
+
+                    <div>
+                        <label for="cidade_id">Cidade:</label>
+                        <input id="cidade_id"
+                               name="cidade"
+                               type="text">
+                    </div>
+
+                    <div>
+                        <label for="estado_id">Estado:</label>
+                        <select id="estado_id" name="estado">
+                            <option value="pr">Paraná</option>
+                            <option value="sp">São Paulo</option>
+                            <option value="sc">Santa Catarina</option>
+                            <option value="rs">Rio Grande do Sul</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informações Profissionais</legend>
+
+                    <div>
+                        <label for="cargo_id">Cargo desejado:</label>
+                        <input id="cargo_id"
+                               name="cargo"
+                               type="text"
+                               placeholder="Digite o cargo desejado">
+                    </div>
+
+                    <div>
+                        <label for="experiencia_id">Experiência profissional:</label>
+                        <select id="experiencia_id" name="experiencia">
+                            <option value="sem_experiencia">Sem experiência</option>
+                            <option value="menos_1">Menos de 1 ano</option>
+                            <option value="1_3">De 1 a 3 anos</option>
+                            <option value="3_5">De 3 a 5 anos</option>
+                            <option value="mais_5">Mais de 5 anos</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="linkedin_id">LinkedIn:</label>
+                        <input id="linkedin_id"
+                               name="linkedin"
+                               type="url"
+                               placeholder="https://www.linkedin.com/in/seu-perfil">
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Nível Desejado</legend>
+
+                    <div>
+                        <input id="nivel_estagio_id"
+                               name="nivel"
+                               type="radio"
+                               value="estagio">
+                        <label for="nivel_estagio_id">Estágio</label>
+                    </div>
+
+                    <div>
+                        <input id="nivel_junior_id"
+                               name="nivel"
+                               type="radio"
+                               value="junior">
+                        <label for="nivel_junior_id">Júnior</label>
+                    </div>
+
+                    <div>
+                        <input id="nivel_pleno_id"
+                               name="nivel"
+                               type="radio"
+                               value="pleno">
+                        <label for="nivel_pleno_id">Pleno</label>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Tecnologias que conhece</legend>
+
+                    <div>
+                        <input id="tec_html_id"
+                               name="tecnologias"
+                               type="checkbox"
+                               value="html">
+                        <label for="tec_html_id">HTML</label>
+                    </div>
+
+                    <div>
+                        <input id="tec_css_id"
+                               name="tecnologias"
+                               type="checkbox"
+                               value="css">
+                        <label for="tec_css_id">CSS</label>
+                    </div>
+
+                    <div>
+                        <input id="tec_python_id"
+                               name="tecnologias"
+                               type="checkbox"
+                               value="python">
+                        <label for="tec_python_id">Python</label>
+                    </div>
+
+                    <div>
+                        <input id="tec_java_id"
+                               name="tecnologias"
+                               type="checkbox"
+                               value="java">
+                        <label for="tec_java_id">Java</label>
+                    </div>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Resumo</legend>
+
+                    <div>
+                        <label for="resumo_id">Fale sobre você:</label>
+                        <textarea id="resumo_id"
+                                  name="resumo"
+                                  placeholder="Digite um breve resumo sobre você"></textarea>
+                    </div>
+
+                </fieldset>
+
+                <div>
+                    <button type="reset">Limpar Dados</button>
+                    <button type="submit">Enviar Candidatura</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados &copy;</p>
+    </footer>
+
+</body>
+```
+
+</html>
