@@ -1,0 +1,73 @@
+{
+  "args": {
+
+  },
+  "data": "",
+  "files": {
+
+  },
+  "form": {
+    "nome": "Felipe Moura Cardoso",
+    "email": "felipe.moura@gmail.com",
+    "telefone": "43988285241",
+    "cpf": "115.390.989-82",
+    "data_nascimento": "2008-05-04",
+    "logradouro": "Rua Paulo Frontin",
+    "numero": "421",
+    "cidade": "ibiporã",
+    "estado": "pr",
+    "cargo": "Tech Lead",
+    "experiencia": "menos_1",
+    "linkedin": "https://www.linkedin.com/in/felipe-mouracardoso/",
+    "nivel": "pleno",
+    "tecnologias": [
+      "html",
+      "css",
+      "python",
+      "java"
+    ],
+    "resumo": "Estudante de Engenharia de Software"
+  },
+  "headers": {
+    "host": "postman-echo.com",
+    "sec-fetch-dest": "document",
+    "referer": "http://127.0.0.1:3000/",
+    "priority": "u=0, i",
+    "accept-language": "en-US",
+    "accept-encoding": "gzip, br",
+    "content-length": "423",
+    "cache-control": "max-age=0",
+    "upgrade-insecure-requests": "1",
+    "content-type": "application/x-www-form-urlencoded",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.138.0 Chrome/148.0.7778.280 Electron/42.10.0 Safari/537.36",
+    "origin": "http://127.0.0.1:3000",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "sec-fetch-site": "cross-site",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-user": "?1",
+    "x-forwarded-proto": "https"
+  },
+  "json": {
+    "nome": "Felipe Moura Cardoso",
+    "email": "felipe.moura@gmail.com",
+    "telefone": "43988285241",
+    "cpf": "115.390.989-82",
+    "data_nascimento": "2008-05-04",
+    "logradouro": "Rua Paulo Frontin",
+    "numero": "421",
+    "cidade": "ibiporã",
+    "estado": "pr",
+    "cargo": "Tech Lead",
+    "experiencia": "menos_1",
+    "linkedin": "https://www.linkedin.com/in/felipe-mouracardoso/",
+    "nivel": "pleno",
+    "tecnologias": [
+      "html",
+      "css",
+      "python",
+      "java"
+    ],
+    "resumo": "Estudante de Engenharia de Software"
+  },
+  "url": "https://postman-echo.com/post"
+}
