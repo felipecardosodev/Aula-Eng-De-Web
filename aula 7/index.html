@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo JavaScript</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Formulário super simples</h1>
+    </header>
+    <main>
+        <h2>Cadastro</h2>
+        <form id="cadastro">
+            <label for="nome">Nome*</label>
+            <input type="text" id="nome">
+            <p id="erro-nome" class="oculto"></p>
+
+            <label for="idade">Idade*</label>
+            <input type="text" id="idade">
+            <p id="erro-idade" class="oculto"></p>
+
+            <label for="email">Email*</label>
+            <input type="text" id="email">
+            <p id="erro-email" class="oculto"></p>
+            
+        </form>
+    </main>
+    <footer>
+        <p>Projeto para conhecermos o JavaScript</p>
+    </footer>
 </body>
 </html>
