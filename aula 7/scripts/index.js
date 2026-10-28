@@ -25,6 +25,24 @@ function executar(evento) {
         erroIdade.classList.add("erro");
         erroIdade.classList.remove("oculto");
     }   
+
+    //TODO: COMO VALIDAR UM EMAIL UTILIZANDO UM REGEX
+
+    const email = document.querySelector("#email");
+    const erroEmail = document.querySelector("#erro-email");
+    if (email.value === "") {
+        erroEmail.textContent = "Email não pode estar vazio";
+        erroEmail.classList.add("erro");
+        erroEmail.classList.remove("oculto");
+    }
+
+    const termos = document.querySelector("#termos");
+    const erroTermos = document.querySelector("#erro-termos");
+    if (!termos.checked) {
+        erroTermos.textContent = "É preciso aceitar os termos";
+        erroTermos.classList.add("erro");
+        erroTermos.classList.remove("oculto");
+    }
 }
 
 function limparErros() {
