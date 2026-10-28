@@ -43,6 +43,19 @@ function executar(evento) {
         erroTermos.classList.add("erro");
         erroTermos.classList.remove("oculto");
     }
+
+    const valido = document.querySelectorAll(".erro").length === 0;
+    const concluido = document.querySelector("#concluido");
+
+    if (!valido) {
+        concluido.textContent = "Corrija os erros para prosseguir";
+        concluido.classList.add("erro");
+        concluido.classList.remove("oculto");
+    } else {
+        concluido.textContent = "Cadastro concluido com sucesso";
+        concluido.classList.add("sucesso");
+        concluido.classList.remove("oculto");
+    }
 }
 
 function limparErros() {
