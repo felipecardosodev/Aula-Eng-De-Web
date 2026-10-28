@@ -12,7 +12,19 @@ function executar(evento) {
     } else {
         alert("Cadastro Concluído!")
     }
-    
+
+    const idade = document.querySelector("#idade");
+    const erroIdade = document.querySelector("#erro-idade");
+
+    if (idade.value === "") {
+        erroIdade.textContent = "Idade não pode estar vazio";
+        erroIdade.classList.add("erro");
+        erroIdade.classList.remove("oculto");
+    } else if (Number(idade.value) < 18) {
+        erroIdade.textContent = "É necessário ter 18 anos";
+        erroIdade.classList.add("erro");
+        erroIdade.classList.remove("oculto");
+    }   
 }
 
 function limparErros() {
