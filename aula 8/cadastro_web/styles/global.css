@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  max-width: 62rem;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  color: #222;
+}
+
+header, main, footer {
+  margin-bottom: 2.4rem;
+}
+
+header p {
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+.campo {
+  margin-bottom: 1.4rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"],
+select {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #aaa;
+  border-radius: 0.5rem;
+  font: inherit;
+  background: #fff;
+}
+
+input:focus, select:focus {
+  outline: 2px solid #8bb8ed;
+  border-color: #2768ad;
+}
+
+.termos {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-top: 1.6rem;
+  font-weight: normal;
+}
+
+.mensagem-erro {
+  display: none;
+  margin-top: 0.3rem;
+  color: #a01818;
+  font-size: 1.3rem;
+}
+
+.mensagem-erro.visivel {
+  display: block;
+}
+
+.invalido {
+  border-color: #a01818 !important;
+  background-color: #fff5f5 !important;
+}
+
+button {
+  padding: 1rem 2rem;
+  margin-top: 1.8rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background: #245f9e;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #174675;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+#concluido {
+  margin-top: 1.2rem;
+  font-weight: bold;
+}
+
+footer {
+  color: #555;
+  font-size: 1.3rem;
+}
